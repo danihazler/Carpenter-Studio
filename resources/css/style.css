@@ -1,16 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+body, html {
     font-family: 'Raleway', sans-serif;
 }
 
+
 .wrapper{
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
+    color: salmon;
+/*    width: 100%;*/
+/*    width: 200px !important;*/
+/*    margin: 0 auto;*/
 }
 
 /* ----------------HEADER----------------- */
@@ -19,9 +20,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0;
+    padding: 10px;
+    margin-bottom: 10px;
 }
-
 
 #brand-name {
     font-family: 'Yellowtail', cursive;
@@ -31,14 +32,7 @@
     margin-left: 10px;  
 }
 
-
 /* ----------------NAVBAR----------------- */
-
-
-#main-nav {
-    padding: 10px;
-    margin-bottom: 10px;
-}
 
 nav ul {
     list-style-type: none;
@@ -61,32 +55,30 @@ nav ul li a:focus {
     border-bottom: 3px solid #ffe200;
 }
 
-/* ----------------BANNERS---------------- */
+/* ----------------BANNER---------------- */
 
 .lead-banner {
-    background-image: radial-gradient(circle, rgba(105, 105, 105, 0.14), rgba(0, 0, 0, 0.4)), url("img/philip-swinburn-60229");
+    background-image: radial-gradient(circle, rgba(105, 105, 105, 0.14), rgba(0, 0, 0, 0.4)), url(img/philip-swinburn-60229.jpg);
     background-size: cover;
     width: 100%;
     height: 85vh;
     margin-bottom: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-span {
+.banner-content {
+    margin-left: 70px;
+}
+
+.banner-content p {
     color: #ffe200;
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: 800;
     line-height: 1.5;
     letter-spacing: .02em;
-    position: relative;
-    top: 220px;
-    left: 100px;
-}
-
-span:after {
-    content: "";
-    display: block;
-    clear: both;
 }
 
 /* ----------ABOUT and COURSES -------------- */
@@ -107,7 +99,6 @@ span:after {
 }
 
 .about-courses p {
-/*    width: 800px;*/
     width: 75%;
     padding: 10px;
     margin-right: 10px;
@@ -126,7 +117,6 @@ span:after {
     padding: 10px;
     width: 31%;   /* testing width */
     box-sizing: border-box;
-/*    flex-grow: 1;*/
     margin: 10px;
 }
 
@@ -146,7 +136,6 @@ span:after {
     float: left;
     margin: 1.66%;
 }
-
 
 /* ----------------CONTACT---------------- */
 

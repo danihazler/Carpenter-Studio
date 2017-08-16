@@ -1,3 +1,4 @@
+/*
 @media only screen and (max-width: 1199px) {
     
     .wrapper{
@@ -18,20 +19,48 @@
         max-width: 950px;
     }
 }
+*/
 
+/* ---------to add main changes from here ----- */
+
+/*
 @media only screen and (max-width: 900px) {
     
     .wrapper{
         max-width: 850px;
     }
+    
+    .course {
+        width: 30%;
+        margin-top: 35px;
+    }
+    
+    .courses ul li {
+        width: 45%;
+    }
 }
-
-/* ---------to add main changes from here ----- */
 
 @media only screen and (max-width: 800px) {
     
     .wrapper{
         max-width: 750px;
+    }
+    
+    .lead-banner {
+        height: 75vh;
+    }
+    
+    .about-courses h2 {
+        margin-bottom: 130px;
+        margin-left: 15px;
+    }
+    
+    .about-courses p {
+        width: 70%;
+    }
+    
+    .social-links {
+        margin-left: 15%;
     }
 }
 
@@ -39,6 +68,26 @@
     
     .wrapper{
         max-width: 650px;
+    }
+    
+    .lead-banner {
+        height: 65vh;
+    }
+    
+    .about-courses h2 {
+        margin-bottom: 150px;
+    }
+    
+    .courses {
+        justify-content: center;
+    }
+    
+    .course {
+        width: 80%;
+    }
+    
+    .social-links {
+        margin-left: 20%;
     }
 }
 
@@ -51,7 +100,4 @@
 
 @media only screen and (max-width: 500px) {
     
-    .wrapper{
-        max-width: 450px;
-    }
-}
+}*/
