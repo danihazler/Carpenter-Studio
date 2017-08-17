@@ -1,103 +1,133 @@
-/*
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 1150px) and (max-width: 1199px) {
     
     .wrapper{
-        max-width: 1150px;
+        width: 98%;
+    }
+    
+    .about-courses,
+    .courses {
+        padding: 0 15px 20px 15px;
     }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 989px) and (max-width: 1149px) {   
     
-    .wrapper{
-        max-width: 1050px;
+    .lead-banner {
+        height: 50vh;
+        margin-bottom: 10px;
     }
-}
-
-@media only screen and (max-width: 1000px) {
     
-    .wrapper{
-        max-width: 950px;
-    }
-}
-*/
-
-/* ---------to add main changes from here ----- */
-
-/*
-@media only screen and (max-width: 900px) {
-    
-    .wrapper{
-        max-width: 850px;
+    .about-courses,
+    .courses {
+        padding: 0 20px;
     }
     
     .course {
-        width: 30%;
         margin-top: 35px;
-    }
-    
-    .courses ul li {
-        width: 45%;
-    }
+    }   
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 988px) {
     
-    .wrapper{
-        max-width: 750px;
+    .about-courses,
+    .courses {
+        padding: 0 10px;
+        margin-top: 20px;
     }
     
-    .lead-banner {
-        height: 75vh;
+    .projects {
+        padding-right: 10px;
     }
-    
-    .about-courses h2 {
-        margin-bottom: 130px;
-        margin-left: 15px;
-    }
-    
-    .about-courses p {
-        width: 70%;
-    }
-    
-    .social-links {
-        margin-left: 15%;
-    }
+
 }
 
-@media only screen and (max-width: 700px) {
-    
-    .wrapper{
-        max-width: 650px;
-    }
-    
-    .lead-banner {
-        height: 65vh;
-    }
-    
-    .about-courses h2 {
-        margin-bottom: 150px;
-    }
+@media only screen and (max-width: 877px) {
     
     .courses {
         justify-content: center;
     }
     
     .course {
-        width: 80%;
+        width: 30%;
+    }
+    
+    .projects ul li {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+    nav ul li {
+        margin: 0;
+    }
+    
+    .projects ul li {
+        width: 45%;
+    }
+    
+    .about-courses,
+    .courses {
+        justify-content: center;
+    }
+    
+     .title {
+        padding-bottom: 30px;
+    }
+    
+     .contact-form {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    
+    .wrapper-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 20px;
+    }
+    
+    .banner-content {
+        margin-left: 20px;
+    }
+    
+    .banner-content p {
+        font-size: 2rem;
+    }
+    
+    .about-courses p {
+        padding: 0;
+        margin: 0;
+        width: 90%;
+    }
+    
+    .course {
+        width: 100%;
+    }
+    
+    .projects ul li {
+        width: 95%;
+    }
+    
+    .contact-form {
+        width: 100%;
     }
     
     .social-links {
-        margin-left: 20%;
+        margin-top: 30px;
+    }
+    
+    .address p:nth-child(3) {
+        padding-top: 55px;
     }
 }
-
-@media only screen and (max-width: 600px) {
-    
-    .wrapper{
-        max-width: 550px;
-    }
-}
-
-@media only screen and (max-width: 500px) {
-    
-}*/
