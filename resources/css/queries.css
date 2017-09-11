@@ -1,132 +1,103 @@
-@media only screen and (min-width: 1150px) and (max-width: 1199px) {
-    
-    .wrapper{
-        width: 98%;
-    }
-    
+@media only screen and (max-width: 1150px) {
+
     .about-courses,
     .courses {
         padding: 0 15px 20px 15px;
     }
 }
 
-@media only screen and (min-width: 989px) and (max-width: 1149px) {   
-    
-    .lead-banner {
-        height: 50vh;
-        margin-bottom: 10px;
-    }
-    
+@media only screen and (max-width: 989px) {
+
     .about-courses,
     .courses {
         padding: 0 20px;
     }
-    
+
     .course {
         margin-top: 35px;
-    }   
+    }
 }
 
 @media only screen and (max-width: 988px) {
-    
+
+    .lead-banner {
+        height: 60vh;
+        width: auto;
+    }
+
     .about-courses,
     .courses {
         padding: 0 10px;
         margin-top: 20px;
     }
-    
+
     .projects {
         padding-right: 10px;
+    }
+
+    .contact-form {
+       width: 45%;
     }
 
 }
 
 @media only screen and (max-width: 877px) {
-    
-    .courses {
-        justify-content: center;
-    }
-    
-    .course {
-        width: 30%;
-    }
-    
-    .projects ul li {
-        width: 35%;
-    }
-}
 
-@media only screen and (max-width: 800px) {
-    
-    nav ul li {
-        margin: 0;
-    }
-    
-    .projects ul li {
-        width: 45%;
-    }
-    
     .about-courses,
     .courses {
         justify-content: center;
     }
-    
+
      .title {
         padding-bottom: 30px;
     }
-    
-     .contact-form {
-        width: 60%;
+
+    .course {
+        width: 30%;
+    }
+
+    .projects img {
+        width: 45%;
     }
 }
 
+
 @media only screen and (max-width: 650px) {
-    
-    .wrapper-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        flex-direction: column;
+
+    .lead-banner {
+        height: 50vh;
     }
-    
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 20px;
-    }
-    
+
     .banner-content {
         margin-left: 20px;
     }
-    
+
     .banner-content p {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
-    
+
     .about-courses p {
         padding: 0;
         margin: 0;
         width: 90%;
     }
-    
+
     .course {
         width: 100%;
     }
-    
-    .projects ul li {
+
+    .projects img {
         width: 95%;
     }
-    
+
     .contact-form {
-        width: 100%;
+        width: 80%;
     }
-    
+
     .social-links {
         margin-top: 30px;
     }
-    
+
     .address p:nth-child(3) {
         padding-top: 55px;
     }

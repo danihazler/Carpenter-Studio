@@ -103,15 +103,15 @@ nav ul li a:active {
 
 .about-courses {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
 }
 
 .about-courses p {
     width: 75%;
     padding: 10px;
     margin-right: 10px;
-    text-align: justify;
 }
 
 .title p,
@@ -152,21 +152,16 @@ nav ul li a:active {
 /* -------------------------------------------------- */
 
 .projects {
-    padding: 20px 0;
-}
-
-.projects ul {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px 0;
 }
 
-.projects ul li {
+.projects img {
     width: 30%;
-    float: left;
     margin: 1.66%;
 }
 
@@ -181,16 +176,14 @@ nav ul li a:active {
 
 .footer-wrapper {
     display: flex;
-    -webkit-box-pack: space-evenly;  /* not sure if it works, but it's an option on Google Chrome */
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 0;
 }
 
 .contact-form {
-    width: 30%;
+    width: 40%;
 }
 
 .contact-form h3 {
