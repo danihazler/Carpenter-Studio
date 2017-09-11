@@ -52,6 +52,13 @@
     }
 }
 
+@media only screen and (max-width: 774px) {
+
+    .course {
+        width: 100%;
+    }
+}
+
 
 @media only screen and (max-width: 650px) {
 
@@ -71,10 +78,6 @@
         padding: 0;
         margin: 0;
         width: 90%;
-    }
-
-    .course {
-        width: 100%;
     }
 
     .projects img {
