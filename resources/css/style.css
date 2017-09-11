@@ -101,15 +101,21 @@ nav ul li a:active {
 /* ---------------ABOUT ---------------- */
 /* ----------------and COURSES --------------------- */
 
-.about-courses {
+.courses {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-courses {
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-bottom: 30px;
 }
 
 .about-courses p {
-    width: 75%;
+    width: 65%;
     padding: 10px;
     margin-right: 10px;
 }
@@ -127,25 +133,31 @@ nav ul li a:active {
     margin-left: 10px;
 }
 
-.courses {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
 .course {
-    border: 2px solid #ffe200;
     box-sizing: border-box;
     width: 31%;
-    padding: 10px;
+    padding: 25px;
     margin: 10px;
+    position: relative;
+}
+
+.course i {
+  font-size: 50px;
 }
 
 .course h2 {
-    font-size: 1.2rem;
+    display: inline-block;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
     margin: 10px;
+}
+
+.course a {
+  color: #d6b400;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* ----------------PROJECTS---------------- */
