@@ -135,9 +135,9 @@ nav ul li a:active {
 
 .course {
     border: 2px solid #ffe200;
-    padding: 10px;
-    width: 31%;
     box-sizing: border-box;
+    width: 31%;
+    padding: 10px;
     margin: 10px;
 }
 
